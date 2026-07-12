@@ -4,6 +4,7 @@ import { FleetProvider } from './context/FleetContext';
 import { DriverProvider } from './context/DriverContext';
 import { TripProvider } from './context/TripContext';
 import { MaintenanceProvider } from './context/MaintenanceContext';
+import { ExpenseProvider } from './context/ExpenseContext';
 import { AppRoutes } from './routes/AppRoutes';
 import { Toaster } from 'sonner';
 
@@ -15,8 +16,10 @@ function App() {
           <DriverProvider>
             <TripProvider>
               <MaintenanceProvider>
-                <AppRoutes />
-                <Toaster position="top-right" closeButton richColors duration={4000} />
+                <ExpenseProvider>
+                  <AppRoutes />
+                  <Toaster position="top-right" closeButton richColors duration={4000} />
+                </ExpenseProvider>
               </MaintenanceProvider>
             </TripProvider>
           </DriverProvider>
