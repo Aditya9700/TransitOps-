@@ -29,6 +29,17 @@ TransitOps consolidates fleet operations into a single dashboard with a protecte
 
 The application is designed for Fleet Managers, Dispatchers, Safety Officers, and Financial Analysts.
 
+
+## Screenshots 
+<img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/724b6dc4-6e2a-493d-b449-178e027342e7" />
+Login page
+<img width="1920" height="920" alt="image" src="https://github.com/user-attachments/assets/5fd981b5-f3c0-4758-9407-90641b99e2e5" />
+Dashboard
+<img width="1920" height="912" alt="image" src="https://github.com/user-attachments/assets/4434aece-88e8-484c-9ab3-29da676f3cb2" />
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/dc3df7e8-954b-4efd-929b-f95f4eefd365" />
+<img width="1920" height="927" alt="image" src="https://github.com/user-attachments/assets/9018031c-b5cf-4cf0-98d8-7a6d81a58f66" />
+Drivers, Fuel Expenses and Reports & analytics.
+
 ## Features
 
 | Feature           |         Current State | Notes                                                                                                                 |
@@ -44,7 +55,7 @@ The application is designed for Fleet Managers, Dispatchers, Safety Officers, an
 | Reports           | Partially implemented | Report-style export is available from the analytics page; there is no separate reports module.                        |
 | RBAC              |           Implemented | Frontend route protection and backend role guard middleware are both present.                                         |
 | Settings          |           Implemented | Settings page includes preferences, demo user management, and permission matrix state.                                |
-| Dashboard         |           Implemented | Dashboard page shows operational KPIs, vehicle status breakdown, and recent trip summaries.                           |
+| Dashboard         |           Implemented | Dashboard page that shows operational KPIs, vehicle status breakdown, and recent trip summaries.                           |
 
 ## Tech Stack
 
