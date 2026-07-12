@@ -388,22 +388,6 @@ The following rules are currently implemented in the codebase:
 
 The backend schemas also enforce user password hashing, vehicle status enums, driver status enums, trip status enums, and maintenance status enums.
 
-## Screenshots
-
-Add screenshots here when the final demo capture is available.
-
-| Screen      | Placeholder                          |
-| ----------- | ------------------------------------ |
-| Dashboard   | `[./docs/screenshots/dashboard.png](https://github.com/user-attachments/assets/724b6dc4-6e2a-493d-b449-178e027342e7)`   |
-| Fleet       | `./docs/screenshots/fleet.png`       |
-| Drivers     | `./docs/screenshots/drivers.png`     |
-| Trips       | `./docs/screenshots/trips.png`       |
-| Maintenance | `./docs/screenshots/maintenance.png` |
-| Fuel        | `./docs/screenshots/fuel.png`        |
-| Analytics   | `./docs/screenshots/analytics.png`   |
-| Settings    | `./docs/screenshots/settings.png`    |
-
-
 ## Future Improvements
 
 | Area                   | Planned Improvement                                                 |
