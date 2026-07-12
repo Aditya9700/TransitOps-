@@ -394,7 +394,7 @@ Add screenshots here when the final demo capture is available.
 
 | Screen      | Placeholder                          |
 | ----------- | ------------------------------------ |
-| Dashboard   | `./docs/screenshots/dashboard.png`   |
+| Dashboard   | `[./docs/screenshots/dashboard.png](https://github.com/user-attachments/assets/724b6dc4-6e2a-493d-b449-178e027342e7)`   |
 | Fleet       | `./docs/screenshots/fleet.png`       |
 | Drivers     | `./docs/screenshots/drivers.png`     |
 | Trips       | `./docs/screenshots/trips.png`       |
@@ -403,13 +403,6 @@ Add screenshots here when the final demo capture is available.
 | Analytics   | `./docs/screenshots/analytics.png`   |
 | Settings    | `./docs/screenshots/settings.png`    |
 
-## Demo
-
-| Item              | Placeholder                             |
-| ----------------- | --------------------------------------- |
-| Demo Video        | `<add-demo-video-link-here>`            |
-| Live Demo         | `<add-live-demo-link-here>`             |
-| GitHub Repository | `<add-your-github-repository-url-here>` |
 
 ## Future Improvements
 
@@ -423,16 +416,6 @@ Add screenshots here when the final demo capture is available.
 | Predictive Maintenance | Forecast service needs using historical maintenance and trip data.  |
 | AI Analytics           | Generate deeper operational insights and anomaly detection.         |
 
-## Contributing
-
-Contributions are welcome. For a clean pull request:
-
-1. Fork the repository.
-2. Create a feature branch.
-3. Make focused changes with clear commits.
-4. Run the relevant frontend or backend checks.
-5. Open a pull request with a short description of the change and validation steps.
-
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file if present in the repository, or add one before publishing.
@@ -441,11 +424,6 @@ This project is licensed under the MIT License. See the `LICENSE` file if presen
 
 | Field     | Value                                |
 | --------- | ------------------------------------ |
-| Author    | Aditya Rana                          |
-| GitHub    | `<add-your-github-profile-url-here>` |
-| LinkedIn  | `<add-your-linkedin-url-here>`       |
-| Portfolio | `<add-your-portfolio-url-here>`      |
+|Team Leader| Aditya Rana                          |
 
-## Notes for Hackathon Review
 
-The frontend is the most complete layer at the moment. The backend is production-shaped, with authentication, schema validation, RBAC middleware, and MongoDB seeding already in place, but most domain CRUD routes still return placeholder responses. That makes the project strong for evaluation as a foundation and honest about what remains to be completed.
