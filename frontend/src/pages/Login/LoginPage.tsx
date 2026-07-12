@@ -42,7 +42,7 @@ export const LoginPage: React.FC = () => {
   const onSubmit = async (data: LoginFormValues) => {
     setAuthError(null);
     try {
-      const success = await login(data.email, data.role);
+      const success = await login(data.email, data.password, data.role);
       if (success) {
         toast.success(`Welcome back! Logged in as ${data.role}`);
         navigate('/dashboard');
@@ -60,7 +60,7 @@ export const LoginPage: React.FC = () => {
 
   const handleDemoFill = (email: string, role: UserRole) => {
     setValue('email', email, { shouldValidate: true });
-    setValue('password', '123456', { shouldValidate: true });
+    setValue('password', 'Password@123', { shouldValidate: true });
     setValue('role', role, { shouldValidate: true });
     toast.info(`Filled credentials for ${role}`);
   };
@@ -73,10 +73,10 @@ export const LoginPage: React.FC = () => {
   ];
 
   const demoAccounts = [
-    { email: 'manager@transitops.com', role: 'Fleet Manager' as UserRole, label: 'Manager' },
-    { email: 'dispatcher@transitops.com', role: 'Dispatcher' as UserRole, label: 'Dispatcher' },
-    { email: 'safety@transitops.com', role: 'Safety Officer' as UserRole, label: 'Safety' },
-    { email: 'finance@transitops.com', role: 'Financial Analyst' as UserRole, label: 'Finance' },
+    { email: 'fleet.manager@transitops.dev', role: 'Fleet Manager' as UserRole, label: 'Manager' },
+    { email: 'dispatcher@transitops.dev', role: 'Dispatcher' as UserRole, label: 'Dispatcher' },
+    { email: 'safety@transitops.dev', role: 'Safety Officer' as UserRole, label: 'Safety' },
+    { email: 'finance@transitops.dev', role: 'Financial Analyst' as UserRole, label: 'Finance' },
   ];
 
   return (
