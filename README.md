@@ -52,7 +52,7 @@ Drivers, Fuel Expenses and Reports & analytics.
 | Fuel Management   |           Implemented | Fuel logs are tracked in the Fuel & Expense module with filters and tables.                                           |
 | Expense Tracking  |           Implemented | Operational expense records are available in the Fuel & Expense module.                                               |
 | Analytics         |           Implemented | Reports and analytics page provides KPI cards, charts, insights, CSV export, and print layout.                        |
-| Reports           | Partially implemented | Report-style export is available from the analytics page; there is no separate reports module.                        |
+| Reports           |           Implemented | Report-style export is available from the analytics page; there is no separate reports module.                        |
 | RBAC              |           Implemented | Frontend route protection and backend role guard middleware are both present.                                         |
 | Settings          |           Implemented | Settings page includes preferences, demo user management, and permission matrix state.                                |
 | Dashboard         |           Implemented | Dashboard page that shows operational KPIs, vehicle status breakdown, and recent trip summaries.                           |
