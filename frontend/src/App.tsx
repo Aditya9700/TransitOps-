@@ -5,6 +5,7 @@ import { DriverProvider } from './context/DriverContext';
 import { TripProvider } from './context/TripContext';
 import { MaintenanceProvider } from './context/MaintenanceContext';
 import { ExpenseProvider } from './context/ExpenseContext';
+import { SettingsProvider } from './context/SettingsContext';
 import { AppRoutes } from './routes/AppRoutes';
 import { Toaster } from 'sonner';
 
@@ -17,8 +18,10 @@ function App() {
             <TripProvider>
               <MaintenanceProvider>
                 <ExpenseProvider>
-                  <AppRoutes />
-                  <Toaster position="top-right" closeButton richColors duration={4000} />
+                  <SettingsProvider>
+                    <AppRoutes />
+                    <Toaster position="top-right" closeButton richColors duration={4000} />
+                  </SettingsProvider>
                 </ExpenseProvider>
               </MaintenanceProvider>
             </TripProvider>
