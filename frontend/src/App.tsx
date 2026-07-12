@@ -2,6 +2,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { AuthProvider } from './context/AuthContext';
 import { FleetProvider } from './context/FleetContext';
 import { DriverProvider } from './context/DriverContext';
+import { TripProvider } from './context/TripContext';
 import { AppRoutes } from './routes/AppRoutes';
 import { Toaster } from 'sonner';
 
@@ -11,8 +12,10 @@ function App() {
       <AuthProvider>
         <FleetProvider>
           <DriverProvider>
-            <AppRoutes />
-            <Toaster position="top-right" closeButton richColors duration={4000} />
+            <TripProvider>
+              <AppRoutes />
+              <Toaster position="top-right" closeButton richColors duration={4000} />
+            </TripProvider>
           </DriverProvider>
         </FleetProvider>
       </AuthProvider>
